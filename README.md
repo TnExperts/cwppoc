@@ -3,13 +3,13 @@ Exploiting an XSS vulnerability in the CWP control panel and escalating the atta
 # Information
 
 ```
-# Exploit Title       : CWP (CentOS Control Web Panel) Version 0.9.8.994 - Remote Command Execution
+# Exploit Title       : CWP (CentOS Control Web Panel) Version 0.9.8.1031 - XSS to full root takeover
 # Date                : 7 january 2021
 # Exploit Author      : Chokri B.A.
 # Vendor Homepage     : https://control-webpanel.com/
 # Software Link       : Not available, user panel only available for lastest version
-# Version             : 0.9.8.994
-# Tested on           : CentOS 7.6.1810 (Core)
+# Version             : 0.9.8.1031
+# Tested on           : CentOS 7 / CentOS 6
 # CVE                 : #
 ```
 
@@ -42,7 +42,7 @@ I've created 2 examples on how you can escalate this attack to take control of t
 
 ```
 2021-01-07: Discovered the bug
-2021-08-08: Reported to vendor
+2021-01-08: Reported to vendor
 #: Vender accepted the vulnerability
 #: The vulnerability has been fixed
 #: Published
