@@ -39,6 +39,11 @@ I've created 2 examples on how you can escalate this attack to take control of t
 
 3. You can perform any action you want as the root user. The only limit is your imagination....
 
+#  Solution - Fix & Patch
+The vulnerability can be patched by a secure parse and encode of the vulnerable input fields.
+Disallow usage of special chars and restrict the parameter input to prevent application-side script code injection attacks.
+Filter in the output error or the item listing the vulnerable location were the code executes.
+
 
 #  Timeline
 
