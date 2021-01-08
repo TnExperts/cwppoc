@@ -18,11 +18,8 @@ A simple user can add/delete/modify any option on behalf of the root user, and e
 
 #  Steps to Reproduce
 1. Login into the CentOS Web Panel using user credential
-<br>
 2. Create a new cron job using your prefered XSS payload.
-<br>
 3. Login as root and navigate to the list of cronjobs
-<br>
 4. the XSS payload will execute.
 
 #  Escalating
