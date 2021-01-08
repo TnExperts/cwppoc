@@ -54,7 +54,7 @@ function deleteCron()
  			xhr.setRequestHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
  			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-			var body = "username=" + user + "&";
+			var body = "user=" + user + "&";
 			body += "line=" + line;
 
 			xhr.send(body);
