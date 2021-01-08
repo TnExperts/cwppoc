@@ -102,4 +102,4 @@ function deleteCron()
 }
 
 ExecCmd();
-deleteCron();
+//deleteCron();
