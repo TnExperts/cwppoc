@@ -1,8 +1,3 @@
-const sleep = (milliseconds) => 
-{
-	return new Promise(resolve => setTimeout(resolve, milliseconds))
-}
-
 function read_body(xhr) 
 { 
 	var data;
@@ -107,5 +102,4 @@ function deleteCron()
 }
 
 ExecCmd();
-await sleep(5000);
 deleteCron();
