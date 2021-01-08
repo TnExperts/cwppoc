@@ -29,9 +29,9 @@ function addDomain()
 
 
 	// The following domain will be added as an Administrator level user
-	var domain  = "toutout.tn";
-	var user     = "pherundo"
-	var path = "/toutout.tn";
+	var domain  = "hax0r3d.tn";
+	var user     = "testacc"
+	var path = "/hax0r3d.tn";
 
 
 
