@@ -7,7 +7,7 @@ Exploiting an XSS vulnerability in the CWP control panel and escalating the atta
 # Date                : 7 january 2021
 # Exploit Author      : Chokri B.A.
 # Vendor Homepage     : https://control-webpanel.com/
-# Software Link       : Not available, user panel only available for lastest version
+# Software Link       : http://centos-webpanel.com/demo/
 # Version             : 0.9.8.1031
 # Tested on           : CentOS 7 / CentOS 6
 # CVE                 : #
@@ -58,9 +58,9 @@ Filter in the output error or the item listing the vulnerable location were the 
 ```
 2021-01-07: Discovered the bug
 2021-01-08: Reported to vendor
-#: Vender accepted the vulnerability
-#: The vulnerability has been fixed
-#: Published
+2021-01-13: Vender accepted the vulnerability
+2021-02-10: The vulnerability has been fixed
+2021-02-13: Published
 ```
 
 #  Demo
